@@ -22,12 +22,20 @@ a:hover{text-decoration:none !important;}
 .hero-brand:hover{opacity:.75;}
 .certius2 { display: none;}
 .tagline{font-family:"Raleway", Helvetica, Arial, sans-serif;font-size:26px;margin:45px 0 75px 0;color:#fff;}
-#header{background:#017006;height:70px;}
+#header{
+	/* background:#017006;height:70px; */
+	background-image:url("/img/parallax-bg.jpg");
+	}
+
 #header #logo{margin:14px 25px 0 0;}
 #header #logo h1{font-size:36px;margin:0;padding:2px 0;line-height:1;font-family:"Raleway", Helvetica, Arial, sans-serif;font-weight:700;letter-spacing:3px;text-transform:uppercase;}
 #header #logo h1 a, #header #logo h1 a:hover{color:#fff;}
 #header #logo img{padding:0;margin:0;max-height:40px;}
 @media (max-width:768px){#header{height:50px;}
+#header{
+	background:#017006;height:70px; 
+	background-image:url("/img/parallax-bg.jpg");
+	}
 #header #logo{margin:10px 0 0 0;}
 #header #logo h1{padding:2px 0;font-size:26px;}
 #header #logo img{max-height:30px;}
@@ -126,7 +134,7 @@ body.mobile-nav-active #mobile-nav-toggle{color:#fff;}
 #contact{background:#f7f7f7;padding:80px 0;}
 #contact h2{font-family:"Raleway", Helvetica, Arial, sans-serif;color:#017006;}
 #contact .info i{font-size:32px;color:#017006;float:left;}
-#contact .info p{padding:0 0 10px 50px;line-height:24px;}
+#contact .info p{padding:0 0 10px 50px;line-height:24px; color:#ddffd8; font-size:1.2em; width: 100%;}
 #contact .form #sendmessage{color:#017006;border:1px solid #017006;display:none;text-align:center;padding:15px;font-weight:600;margin-bottom:15px;}
 #contact .form #errormessage{color:red;display:none;border:1px solid red;text-align:center;padding:15px;font-weight:600;margin-bottom:15px;}
 #contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show{display:block;}

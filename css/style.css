@@ -22,20 +22,12 @@ a:hover{text-decoration:none !important;}
 .hero-brand:hover{opacity:.75;}
 .certius2 { display: none;}
 .tagline{font-family:"Raleway", Helvetica, Arial, sans-serif;font-size:26px;margin:45px 0 75px 0;color:#fff;}
-#header{
-	/* background:#017006;height:70px; */
-	background-image:url("/img/parallax-bg.jpg");
-	}
-
+#header{background:#017006;height:70px;}
 #header #logo{margin:14px 25px 0 0;}
 #header #logo h1{font-size:36px;margin:0;padding:2px 0;line-height:1;font-family:"Raleway", Helvetica, Arial, sans-serif;font-weight:700;letter-spacing:3px;text-transform:uppercase;}
 #header #logo h1 a, #header #logo h1 a:hover{color:#fff;}
 #header #logo img{padding:0;margin:0;max-height:40px;}
 @media (max-width:768px){#header{height:50px;}
-#header{
-	background:#017006;height:70px; 
-	background-image:url("/img/parallax-bg.jpg");
-	}
 #header #logo{margin:10px 0 0 0;}
 #header #logo h1{padding:2px 0;font-size:26px;}
 #header #logo img{max-height:30px;}
@@ -114,7 +106,7 @@ body.mobile-nav-active #mobile-nav-toggle{color:#fff;}
 .portfolio-grid .row > div .card .portfolio-over .card-title{color:#fff;font-size:30px;}
 .portfolio-grid .row > div .card .portfolio-over .card-text{color:#fff;opacity:.75;padding:0 45px;}
 .portfolio-grid .row > div .card:hover .portfolio-over{opacity:1;visibility:visible;}
-.team h2{color:#017006;}
+.team h2{color:#f8f9fa;}
 .team .col-sm-3{padding:0;}
 .team .card > a{display:block;}
 .team .card img{width:100%;}
@@ -124,7 +116,7 @@ body.mobile-nav-active #mobile-nav-toggle{color:#fff;}
 .team .card .social-nav a{color:#fff;font-size:16px;margin:0 4px;}
 .team .card .social-nav a:hover{opacity:.75;}
 .team .card:hover .team-over{opacity:1;visibility:visible;}
-.team .card:hover .card-title-wrap{background-color:#017006;}
+.team .card:hover .card-title-wrap{background-image:url(../img/parallax-bg.jpg); border: 1px solid #017006; border-top: 0px;  border-radius: 5px;}
 .team .card:hover .card-title-wrap .card-title, .team .card:hover .card-title-wrap .card-text{color:#fff;}
 .team .team-over{padding-top:45px;position:absolute;width:100%;height:100%;background:rgba(0, 0, 0, 0.8);top:0;left:0;text-align:center;opacity:0;visibility:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease;}
 .team .card-title-wrap{padding:15px 25px;position:relative;z-index:9;background-color:#fff;}
@@ -134,7 +126,7 @@ body.mobile-nav-active #mobile-nav-toggle{color:#fff;}
 #contact{background:#f7f7f7;padding:80px 0;}
 #contact h2{font-family:"Raleway", Helvetica, Arial, sans-serif;color:#017006;}
 #contact .info i{font-size:32px;color:#017006;float:left;}
-#contact .info p{padding:0 0 10px 50px;line-height:24px; color:#ddffd8; font-size:1.2em; width: 100%;}
+#contact .info p{padding:0 0 10px 50px;line-height:24px; color: #333}
 #contact .form #sendmessage{color:#017006;border:1px solid #017006;display:none;text-align:center;padding:15px;font-weight:600;margin-bottom:15px;}
 #contact .form #errormessage{color:red;display:none;border:1px solid red;text-align:center;padding:15px;font-weight:600;margin-bottom:15px;}
 #contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show{display:block;}
